@@ -55,6 +55,14 @@ ul {
     text-align: center; /* Center-align text */
 }
 
+.backg{
+    background-image: url(img/header-bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
 /* Subheading styles */
 .header-content h2 {
     font-size: 4vmin;
