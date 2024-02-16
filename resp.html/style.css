@@ -1,0 +1,83 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Remove default list styles */
+ul {
+    list-style: none;
+}
+
+/* Navbar styles */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    padding: 20px;
+    display: flex;
+    color: whitesmoke;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+/* Header styles */
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('header-bg2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: whitesmoke; /* Move color here to apply to all text inside header */
+}
+
+/* Header content styles */
+.header-content {
+    margin-bottom: 150px;
+    text-align: center; /* Center-align text */
+}
+
+/* Subheading styles */
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+/* Red line styles */
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Heading styles */
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 30px; /* Use margin-top once */
+}
+
+/* Button styles */
+.ctn {
+    padding: 8px 15px;
+    background-color: #fc036b;
+    border-radius: 30px;
+}
